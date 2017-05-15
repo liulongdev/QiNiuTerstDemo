@@ -1,0 +1,1 @@
+../../../MXRProfiler/MXRProfiler/Modules/StandstillModule/View/MXRProfilerStandstillDetailViewController.h

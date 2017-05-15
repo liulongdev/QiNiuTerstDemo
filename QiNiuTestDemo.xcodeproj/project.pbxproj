@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CBA67DE67569920F674954A /* libPods-QiNiuTestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6BA869388B5C10933B3326 /* libPods-QiNiuTestDemo.a */; };
+		C149F8F61EC9917D00C8B7C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C149F8F51EC9917D00C8B7C8 /* main.m */; };
+		C149F8F91EC9917D00C8B7C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C149F8F81EC9917D00C8B7C8 /* AppDelegate.m */; };
+		C149F8FC1EC9917D00C8B7C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C149F8FB1EC9917D00C8B7C8 /* ViewController.m */; };
+		C149F8FF1EC9917D00C8B7C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C149F8FD1EC9917D00C8B7C8 /* Main.storyboard */; };
+		C149F9011EC9917D00C8B7C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C149F9001EC9917D00C8B7C8 /* Assets.xcassets */; };
+		C149F9041EC9917D00C8B7C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C149F9021EC9917D00C8B7C8 /* LaunchScreen.storyboard */; };
+		C149F90F1EC9917E00C8B7C8 /* QiNiuTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C149F90E1EC9917E00C8B7C8 /* QiNiuTestDemoTests.m */; };
+		C149F91A1EC9917E00C8B7C8 /* QiNiuTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C149F9191EC9917E00C8B7C8 /* QiNiuTestDemoUITests.m */; };
+		C149F92C1EC99C9900C8B7C8 /* MXRClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C149F9291EC99C9900C8B7C8 /* MXRClassInfo.m */; };
+		C149F92D1EC99C9900C8B7C8 /* NSObject+MXRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C149F92B1EC99C9900C8B7C8 /* NSObject+MXRModel.m */; };
+		C149F9351EC99D1300C8B7C8 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C149F9301EC99D1300C8B7C8 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C149F9361EC99D1300C8B7C8 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C149F9301EC99D1300C8B7C8 /* GTMBase64.m */; };
+		C149F9371EC99D1300C8B7C8 /* MXRBase64.mm in Sources */ = {isa = PBXBuildFile; fileRef = C149F9331EC99D1300C8B7C8 /* MXRBase64.mm */; };
+		C149F9381EC99D1300C8B7C8 /* MXRBase64.mm in Sources */ = {isa = PBXBuildFile; fileRef = C149F9331EC99D1300C8B7C8 /* MXRBase64.mm */; };
+		C149F9391EC99D1300C8B7C8 /* readme_base64.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C149F9341EC99D1300C8B7C8 /* readme_base64.rtf */; };
+		C149F93A1EC99D1300C8B7C8 /* readme_base64.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C149F9341EC99D1300C8B7C8 /* readme_base64.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C149F90B1EC9917E00C8B7C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C149F8E91EC9917D00C8B7C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C149F8F01EC9917D00C8B7C8;
+			remoteInfo = QiNiuTestDemo;
+		};
+		C149F9161EC9917E00C8B7C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C149F8E91EC9917D00C8B7C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C149F8F01EC9917D00C8B7C8;
+			remoteInfo = QiNiuTestDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B2910FB527A89EE336496DC /* Pods-QiNiuTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiNiuTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiNiuTestDemo/Pods-QiNiuTestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6B6BA869388B5C10933B3326 /* libPods-QiNiuTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QiNiuTestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C154F08AC2A69334C192A0 /* Pods-QiNiuTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiNiuTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiNiuTestDemo/Pods-QiNiuTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C149F8F11EC9917D00C8B7C8 /* QiNiuTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiNiuTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C149F8F51EC9917D00C8B7C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C149F8F71EC9917D00C8B7C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C149F8F81EC9917D00C8B7C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C149F8FA1EC9917D00C8B7C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C149F8FB1EC9917D00C8B7C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C149F8FE1EC9917D00C8B7C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C149F9001EC9917D00C8B7C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C149F9031EC9917D00C8B7C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C149F9051EC9917D00C8B7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C149F90A1EC9917E00C8B7C8 /* QiNiuTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiNiuTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C149F90E1EC9917E00C8B7C8 /* QiNiuTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiNiuTestDemoTests.m; sourceTree = "<group>"; };
+		C149F9101EC9917E00C8B7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C149F9151EC9917E00C8B7C8 /* QiNiuTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiNiuTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C149F9191EC9917E00C8B7C8 /* QiNiuTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiNiuTestDemoUITests.m; sourceTree = "<group>"; };
+		C149F91B1EC9917E00C8B7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C149F9281EC99C9900C8B7C8 /* MXRClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRClassInfo.h; sourceTree = "<group>"; };
+		C149F9291EC99C9900C8B7C8 /* MXRClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRClassInfo.m; sourceTree = "<group>"; };
+		C149F92A1EC99C9900C8B7C8 /* NSObject+MXRModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MXRModel.h"; sourceTree = "<group>"; };
+		C149F92B1EC99C9900C8B7C8 /* NSObject+MXRModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MXRModel.m"; sourceTree = "<group>"; };
+		C149F92F1EC99D1300C8B7C8 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		C149F9301EC99D1300C8B7C8 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		C149F9311EC99D1300C8B7C8 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		C149F9321EC99D1300C8B7C8 /* MXRBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRBase64.h; sourceTree = "<group>"; };
+		C149F9331EC99D1300C8B7C8 /* MXRBase64.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MXRBase64.mm; sourceTree = "<group>"; };
+		C149F9341EC99D1300C8B7C8 /* readme_base64.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = readme_base64.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C149F8EE1EC9917D00C8B7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBA67DE67569920F674954A /* libPods-QiNiuTestDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C149F9071EC9917E00C8B7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C149F9121EC9917E00C8B7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5464EE13CB527D4AD07C1E86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B6BA869388B5C10933B3326 /* libPods-QiNiuTestDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C149F8E81EC9917D00C8B7C8 = {
+			isa = PBXGroup;
+			children = (
+				C149F8F31EC9917D00C8B7C8 /* QiNiuTestDemo */,
+				C149F90D1EC9917E00C8B7C8 /* QiNiuTestDemoTests */,
+				C149F9181EC9917E00C8B7C8 /* QiNiuTestDemoUITests */,
+				C149F8F21EC9917D00C8B7C8 /* Products */,
+				D209951884389BEBA6E7AB5D /* Pods */,
+				5464EE13CB527D4AD07C1E86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C149F8F21EC9917D00C8B7C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C149F8F11EC9917D00C8B7C8 /* QiNiuTestDemo.app */,
+				C149F90A1EC9917E00C8B7C8 /* QiNiuTestDemoTests.xctest */,
+				C149F9151EC9917E00C8B7C8 /* QiNiuTestDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C149F8F31EC9917D00C8B7C8 /* QiNiuTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C149F9271EC99C9900C8B7C8 /* MXRModel */,
+				C149F92E1EC99D1300C8B7C8 /* Base64 */,
+				C149F8F71EC9917D00C8B7C8 /* AppDelegate.h */,
+				C149F8F81EC9917D00C8B7C8 /* AppDelegate.m */,
+				C149F8FA1EC9917D00C8B7C8 /* ViewController.h */,
+				C149F8FB1EC9917D00C8B7C8 /* ViewController.m */,
+				C149F8FD1EC9917D00C8B7C8 /* Main.storyboard */,
+				C149F9001EC9917D00C8B7C8 /* Assets.xcassets */,
+				C149F9021EC9917D00C8B7C8 /* LaunchScreen.storyboard */,
+				C149F9051EC9917D00C8B7C8 /* Info.plist */,
+				C149F8F41EC9917D00C8B7C8 /* Supporting Files */,
+			);
+			path = QiNiuTestDemo;
+			sourceTree = "<group>";
+		};
+		C149F8F41EC9917D00C8B7C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C149F8F51EC9917D00C8B7C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C149F90D1EC9917E00C8B7C8 /* QiNiuTestDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C149F90E1EC9917E00C8B7C8 /* QiNiuTestDemoTests.m */,
+				C149F9101EC9917E00C8B7C8 /* Info.plist */,
+			);
+			path = QiNiuTestDemoTests;
+			sourceTree = "<group>";
+		};
+		C149F9181EC9917E00C8B7C8 /* QiNiuTestDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C149F9191EC9917E00C8B7C8 /* QiNiuTestDemoUITests.m */,
+				C149F91B1EC9917E00C8B7C8 /* Info.plist */,
+			);
+			path = QiNiuTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		C149F9271EC99C9900C8B7C8 /* MXRModel */ = {
+			isa = PBXGroup;
+			children = (
+				C149F9281EC99C9900C8B7C8 /* MXRClassInfo.h */,
+				C149F9291EC99C9900C8B7C8 /* MXRClassInfo.m */,
+				C149F92A1EC99C9900C8B7C8 /* NSObject+MXRModel.h */,
+				C149F92B1EC99C9900C8B7C8 /* NSObject+MXRModel.m */,
+			);
+			path = MXRModel;
+			sourceTree = "<group>";
+		};
+		C149F92E1EC99D1300C8B7C8 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				C149F92F1EC99D1300C8B7C8 /* GTMBase64.h */,
+				C149F9301EC99D1300C8B7C8 /* GTMBase64.m */,
+				C149F9311EC99D1300C8B7C8 /* GTMDefines.h */,
+				C149F9321EC99D1300C8B7C8 /* MXRBase64.h */,
+				C149F9331EC99D1300C8B7C8 /* MXRBase64.mm */,
+				C149F9341EC99D1300C8B7C8 /* readme_base64.rtf */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		D209951884389BEBA6E7AB5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93C154F08AC2A69334C192A0 /* Pods-QiNiuTestDemo.debug.xcconfig */,
+				4B2910FB527A89EE336496DC /* Pods-QiNiuTestDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C149F8F01EC9917D00C8B7C8 /* QiNiuTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C149F91E1EC9917E00C8B7C8 /* Build configuration list for PBXNativeTarget "QiNiuTestDemo" */;
+			buildPhases = (
+				9FA7DF4B5C180708FF6BE293 /* [CP] Check Pods Manifest.lock */,
+				C149F8ED1EC9917D00C8B7C8 /* Sources */,
+				C149F8EE1EC9917D00C8B7C8 /* Frameworks */,
+				C149F8EF1EC9917D00C8B7C8 /* Resources */,
+				191086C1F37E5B6BA34F9502 /* [CP] Embed Pods Frameworks */,
+				5EADF9983FDA7F6031A841B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiNiuTestDemo;
+			productName = QiNiuTestDemo;
+			productReference = C149F8F11EC9917D00C8B7C8 /* QiNiuTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C149F9091EC9917E00C8B7C8 /* QiNiuTestDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C149F9211EC9917E00C8B7C8 /* Build configuration list for PBXNativeTarget "QiNiuTestDemoTests" */;
+			buildPhases = (
+				C149F9061EC9917E00C8B7C8 /* Sources */,
+				C149F9071EC9917E00C8B7C8 /* Frameworks */,
+				C149F9081EC9917E00C8B7C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C149F90C1EC9917E00C8B7C8 /* PBXTargetDependency */,
+			);
+			name = QiNiuTestDemoTests;
+			productName = QiNiuTestDemoTests;
+			productReference = C149F90A1EC9917E00C8B7C8 /* QiNiuTestDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C149F9141EC9917E00C8B7C8 /* QiNiuTestDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C149F9241EC9917E00C8B7C8 /* Build configuration list for PBXNativeTarget "QiNiuTestDemoUITests" */;
+			buildPhases = (
+				C149F9111EC9917E00C8B7C8 /* Sources */,
+				C149F9121EC9917E00C8B7C8 /* Frameworks */,
+				C149F9131EC9917E00C8B7C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C149F9171EC9917E00C8B7C8 /* PBXTargetDependency */,
+			);
+			name = QiNiuTestDemoUITests;
+			productName = QiNiuTestDemoUITests;
+			productReference = C149F9151EC9917E00C8B7C8 /* QiNiuTestDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C149F8E91EC9917D00C8B7C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MXR;
+				TargetAttributes = {
+					C149F8F01EC9917D00C8B7C8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C149F9091EC9917E00C8B7C8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C149F8F01EC9917D00C8B7C8;
+					};
+					C149F9141EC9917E00C8B7C8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C149F8F01EC9917D00C8B7C8;
+					};
+				};
+			};
+			buildConfigurationList = C149F8EC1EC9917D00C8B7C8 /* Build configuration list for PBXProject "QiNiuTestDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C149F8E81EC9917D00C8B7C8;
+			productRefGroup = C149F8F21EC9917D00C8B7C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C149F8F01EC9917D00C8B7C8 /* QiNiuTestDemo */,
+				C149F9091EC9917E00C8B7C8 /* QiNiuTestDemoTests */,
+				C149F9141EC9917E00C8B7C8 /* QiNiuTestDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C149F8EF1EC9917D00C8B7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C149F9041EC9917D00C8B7C8 /* LaunchScreen.storyboard in Resources */,
+				C149F9391EC99D1300C8B7C8 /* readme_base64.rtf in Resources */,
+				C149F9011EC9917D00C8B7C8 /* Assets.xcassets in Resources */,
+				C149F8FF1EC9917D00C8B7C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C149F9081EC9917E00C8B7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C149F93A1EC99D1300C8B7C8 /* readme_base64.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C149F9131EC9917E00C8B7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		191086C1F37E5B6BA34F9502 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiNiuTestDemo/Pods-QiNiuTestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EADF9983FDA7F6031A841B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiNiuTestDemo/Pods-QiNiuTestDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FA7DF4B5C180708FF6BE293 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C149F8ED1EC9917D00C8B7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C149F92D1EC99C9900C8B7C8 /* NSObject+MXRModel.m in Sources */,
+				C149F9351EC99D1300C8B7C8 /* GTMBase64.m in Sources */,
+				C149F8FC1EC9917D00C8B7C8 /* ViewController.m in Sources */,
+				C149F8F91EC9917D00C8B7C8 /* AppDelegate.m in Sources */,
+				C149F9371EC99D1300C8B7C8 /* MXRBase64.mm in Sources */,
+				C149F92C1EC99C9900C8B7C8 /* MXRClassInfo.m in Sources */,
+				C149F8F61EC9917D00C8B7C8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C149F9061EC9917E00C8B7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C149F9381EC99D1300C8B7C8 /* MXRBase64.mm in Sources */,
+				C149F90F1EC9917E00C8B7C8 /* QiNiuTestDemoTests.m in Sources */,
+				C149F9361EC99D1300C8B7C8 /* GTMBase64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C149F9111EC9917E00C8B7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C149F91A1EC9917E00C8B7C8 /* QiNiuTestDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C149F90C1EC9917E00C8B7C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C149F8F01EC9917D00C8B7C8 /* QiNiuTestDemo */;
+			targetProxy = C149F90B1EC9917E00C8B7C8 /* PBXContainerItemProxy */;
+		};
+		C149F9171EC9917E00C8B7C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C149F8F01EC9917D00C8B7C8 /* QiNiuTestDemo */;
+			targetProxy = C149F9161EC9917E00C8B7C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C149F8FD1EC9917D00C8B7C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C149F8FE1EC9917D00C8B7C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C149F9021EC9917D00C8B7C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C149F9031EC9917D00C8B7C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C149F91C1EC9917E00C8B7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C149F91D1EC9917E00C8B7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C149F91F1EC9917E00C8B7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93C154F08AC2A69334C192A0 /* Pods-QiNiuTestDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QiNiuTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxrcorp.QiNiuTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C149F9201EC9917E00C8B7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2910FB527A89EE336496DC /* Pods-QiNiuTestDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QiNiuTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxrcorp.QiNiuTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C149F9221EC9917E00C8B7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QiNiuTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxrcorp.QiNiuTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiNiuTestDemo.app/QiNiuTestDemo";
+			};
+			name = Debug;
+		};
+		C149F9231EC9917E00C8B7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QiNiuTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxrcorp.QiNiuTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiNiuTestDemo.app/QiNiuTestDemo";
+			};
+			name = Release;
+		};
+		C149F9251EC9917E00C8B7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QiNiuTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxrcorp.QiNiuTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QiNiuTestDemo;
+			};
+			name = Debug;
+		};
+		C149F9261EC9917E00C8B7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QiNiuTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxrcorp.QiNiuTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QiNiuTestDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C149F8EC1EC9917D00C8B7C8 /* Build configuration list for PBXProject "QiNiuTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C149F91C1EC9917E00C8B7C8 /* Debug */,
+				C149F91D1EC9917E00C8B7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C149F91E1EC9917E00C8B7C8 /* Build configuration list for PBXNativeTarget "QiNiuTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C149F91F1EC9917E00C8B7C8 /* Debug */,
+				C149F9201EC9917E00C8B7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C149F9211EC9917E00C8B7C8 /* Build configuration list for PBXNativeTarget "QiNiuTestDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C149F9221EC9917E00C8B7C8 /* Debug */,
+				C149F9231EC9917E00C8B7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C149F9241EC9917E00C8B7C8 /* Build configuration list for PBXNativeTarget "QiNiuTestDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C149F9251EC9917E00C8B7C8 /* Debug */,
+				C149F9261EC9917E00C8B7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C149F8E91EC9917D00C8B7C8 /* Project object */;
+}

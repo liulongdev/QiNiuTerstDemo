@@ -1,0 +1,1 @@
+../../../MXRProfiler/MXRProfiler/Modules/SimpleInfoModule/View/MXRProfilerSimpleInfoViewController.h
